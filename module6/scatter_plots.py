@@ -4,7 +4,7 @@ import numpy as np
 
 data = pd.read_csv('module3/countries.csv')
 
-data_2007 = data[data.year == 2007]
+#data_2007 = data[data.year == 2007]
 
 # plt.scatter(data_2007.gdpPerCapita, data_2007.lifeExpectancy, 5) #3rd argument is size of dot
 # plt.title('GDP per Capita against life expectancy in 2007')
